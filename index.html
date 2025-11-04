@@ -60,6 +60,26 @@
       color: white;
       padding: 20px;
       text-align: center;
+      position: relative;
+    }
+
+    .developer-info {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .developer-info a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 5px;
     }
 
     .card-body {
@@ -189,13 +209,6 @@
       margin: 16px 0;
     }
 
-    .contact-info a {
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1.1rem;
-    }
-
     @media (min-width: 768px) {
       body {
         padding: 30px;
@@ -231,6 +244,10 @@
   <div class="container">
     <div class="card">
       <div class="card-header">
+        <div class="developer-info">
+          <i class="fas fa-user-tie"></i>
+          By: <a href="https://t.me/ANUJ_FF_ID_SELLER" target="_blank">@ANUJ_FF_ID_SELLER</a>
+        </div>
         <h1>Service Agreement</h1>
         <p>Terms & Conditions and Refund Policy for SMM Studio Bot</p>
       </div>
@@ -313,7 +330,7 @@
             <div class="list-item success">
               <i class="fas fa-check-circle"></i>
               <div>
-                Refunds are <span class="highlight">only issued if the order fails or is not delivered</span>.
+                Refunds are <span class="highlight">only issued if the order is not completed</span> (fails or not delivered).
               </div>
             </div>
             
@@ -363,13 +380,6 @@
         </div>
         
         <div class="footer">
-          <p>Developed & Managed By:</p>
-          <div class="contact-info">
-            <a href="https://t.me/ANUJ_FF_ID_SELLER" target="_blank">
-              <i class="fab fa-telegram"></i>
-              &nbsp; @ANUJ_FF_ID_SELLER
-            </a>
-          </div>
           <p>
             ⚙️ Powered by <a href="https://t.me/anuj_bots" target="_blank">@anuj_bots</a>
           </p>
